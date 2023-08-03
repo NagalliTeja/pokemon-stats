@@ -1,0 +1,82 @@
+.App {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  flex-direction: column;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.title{
+  background-color: #66347F;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.title-head{
+  background-color: #37306B;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.title input{
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid aqua;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.title button{
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+  color: white;
+  background-color: blue;
+}
+.title button:hover{
+  cursor: pointer;
+}
+.display{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9E4784;
+}
+.display h3{
+  margin: 5px;
+}
+.display img{
+  width: 200px;
+}
+.dis{
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #D27685;
+  border-radius: 10px;
+}
+.dis h3{
+  margin: 5px;
+}
+.dis img{
+  width: 200px;
+}
